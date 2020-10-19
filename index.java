@@ -1,5 +1,8 @@
 void setup() {
 	size(500, 500);
+  int x1 = 100;
+  int y1 = 200;
+  int z1 = 50;
 }
 
 void draw() {
@@ -18,7 +21,10 @@ void draw() {
   background(255);
   stroke(0);
   fill(175);
-
+  ellipse(100,100,50,50);
+  ellipse(100,200,50,50);
+  ellipse(200,100,50,50);
+  ellipse(200,200,50,50);
 
   
  
